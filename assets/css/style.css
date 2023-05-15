@@ -1,0 +1,165 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Body*/
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Navbar*/
+nav {
+    background-color: #837a7a;
+    color: beige;
+    padding: 20px 20px;
+    text-align: left;
+    font-size: 25px;
+    justify-content: space-between
+};
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: beige;
+    text-decoration: none;
+}
+/*Header*/
+header {
+    background-image: url(../img/bg-hero.png);
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0px 3px 6px black;
+    color: wheat;
+    padding: 5%;
+}
+header h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+header h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+/*Section 1 Ubicación*/
+#ubicacion {
+    padding: 15px;
+    margin: 20px;
+}
+#ubicacion h2 {
+    font-size: 50px;
+    margin: 40px 0px 20px 20px;
+}
+#ubicacion p {
+    font-size: 20px;
+}
+/*Section 2 Proxima Charla*/
+.charla {
+    background: #a4452c;
+    margin: auto;
+    padding: 5%;
+    color: aliceblue;
+}
+#charla .wrapper {
+    width: 100%;
+    margin: auto;
+}
+.wrapper img {
+    width: 20%;
+    height: 20%;
+}
+.wrapper .texto {
+    width: 60%;
+    margin-left: 5%;
+}
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+/*Section 3 Eventos Anteriores*/
+section h2 {
+    text-align: center;
+    padding: 20px;
+}
+/* .anteriores {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.anteriores article {
+    margin: 10px;
+}
+.eventos-anteriores {
+    margin: 20px auto;
+    text-align: center;
+}
+.eventos-anteriores img {
+    width: 85%;
+    margin: 0 auto;
+} */
+/*Footer*/
+footer {
+    text-align: center;
+    background-color: #837a7a;
+    padding: 20px;
+}
+i {
+    padding: 15px;
+    font-size: 60px;
+}
+/*VeganDB*/
+#vegan {
+    text-align: center;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#vegan h1 {
+    margin-bottom: 0;
+    text-align: left;
+}
+#vegan h2 {
+    text-align: left;
+}
+.img-vegan {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.texto{
+    text-align: justify;
+    padding: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+/*Eventos-Anteriores*/
+#Eventos-Anteriores h2{
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.row .col-4{
+    margin: 20px;
+    padding: 20px;
+    display: inline-flex;
+}
+h3 {
+    margin: 10px;
+    padding: 10px;
+}
